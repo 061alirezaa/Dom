@@ -30,4 +30,4 @@ miner = Miner(wallet_address)
 while True:  
     nonce, hash_result = miner.mine_block(data)
     print(f"Nonce found: {nonce}")
-    print(f"Hash: {hash_result}"
+    print(f"Hash: {hash_result}")
